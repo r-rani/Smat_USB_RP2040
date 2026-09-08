@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RP2040_minimal_r2") (type "KiCad") (uri "C:/Users/richa/OneDrive/Desktop/KiCAD Course/USB Project/Libraries/RP2040_minimal_r2.pretty") (options "") (descr ""))
+)

@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "Rev 1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -429,7 +429,7 @@
         "uuid": "7fe60026-45dd-4fff-9cc0-89f10791a8d1"
       }
     ],
-    "used_designators": "U101",
+    "used_designators": "U101,U201-202,U301,U401-403,U501-502,D301-302,D401,L301-302,#PWR101-106,#PWR201-205,#PWR301-304,#PWR401-410,#PWR501,R101-106,R201-206,R301-303,R401-407,R501-503,#FLG201-202,#FLG301,#FLG401-402,C101-102,C201,C301-305,C401-409,C501-503,TP201-202,TP301-302,J101-102,Y401,Y501",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,22 @@
     [
       "fb99e91f-92a6-4381-99db-764689455caa",
       "ORING_POWER"
+    ],
+    [
+      "ed410f45-83a8-42b4-bf9a-8ba37368cde9",
+      "BUCK_CONVERTER"
+    ],
+    [
+      "441b7d3b-925c-4e09-96eb-c06cfefe3783",
+      "USB_BRIDGE"
+    ],
+    [
+      "a3cb7550-bf19-4661-9819-2e7fee872a8f",
+      "RP2040"
+    ],
+    [
+      "3ea027fe-fd9b-4619-8d6a-6a707330e657",
+      "eMMC_STORAGAE"
     ]
   ],
   "text_variables": {},

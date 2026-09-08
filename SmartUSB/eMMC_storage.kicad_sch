@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "855a0d4b-9a77-4a5e-acec-5c5efbbbe667")
+	(paper "A4")
+	(title_block
+		(title "USB Smart Storage")
+		(date "2026-09-03")
+		(rev "Rev 1")
+		(company "Richa Rani")
+	)
+	(lib_symbols)
+)
