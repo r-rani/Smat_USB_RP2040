@@ -960,6 +960,26 @@
 		)
 		(uuid "9387ae9c-6a23-4fb3-b1d7-589d8cfc20ec")
 	)
+	(text_box "NOTE: Only one of the 2 Vouts will be active at the same time. Both Vouts are not electrically connected. Will throw an error, ignore"
+		(exclude_from_sim no)
+		(at 234.315 55.245 0)
+		(size 29.21 22.225)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a94adfae-e19d-4da3-af7c-64ef06228308")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 101.6 64.77 0)
@@ -1005,6 +1025,12 @@
 		(uuid "5302f12a-6797-432a-81c6-308b7ebd4b4b")
 	)
 	(junction
+		(at 105.41 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662e0823-b7df-489d-8722-652ba1225e5b")
+	)
+	(junction
 		(at 127 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1021,6 +1047,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f02035d-de73-4a84-a302-18f3ae0b0669")
+	)
+	(junction
+		(at 200.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af624cb5-d96f-4ad9-859a-3b1a820f9417")
 	)
 	(junction
 		(at 184.15 63.5)
@@ -1106,6 +1138,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41275e2b-a7e7-458f-866b-372f89ae0f9e")
+	)
+	(wire
+		(pts
 			(xy 154.94 68.58) (xy 154.94 101.6)
 		)
 		(stroke
@@ -1146,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 63.5) (xy 124.46 63.5)
+			(xy 96.52 63.5) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 210.82 63.5)
+			(xy 191.77 63.5) (xy 200.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1353,6 +1395,16 @@
 			(type default)
 		)
 		(uuid "d922cc2e-e1e9-4522-8ce0-f6a61447d2ca")
+	)
+	(wire
+		(pts
+			(xy 200.66 63.5) (xy 210.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fe3619-55da-457b-a860-50cad3fea046")
 	)
 	(image
 		(at 238.76 144.78)
@@ -1887,7 +1939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b928ea-8e32-48c8-ab26-e0ed5c95c9b1")
-		(property "Reference" "TP201"
+		(property "Reference" "TP202"
 			(at 114.3 97.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 116.84 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1942,13 +1994,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 111.76 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 111.76 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "decb3c9b-1740-48f2-83b3-bd7918da2deb")
 		)
 		(instances
 			(project "SmartUSB"
 				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/fb99e91f-92a6-4381-99db-764689455caa"
-					(reference "TP201")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -2176,6 +2250,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 143.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 143.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2b7fe0a-ecba-46d9-8f33-fc7133384d28")
 		)
@@ -2325,6 +2421,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2493,6 +2611,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "13b95342-2b3e-4f13-a362-cfb5c374fd9f")
 		)
@@ -2576,6 +2716,28 @@
 		)
 		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
 			(at 165.1 122.174 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 165.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,6 +2831,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 191.77 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 191.77 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2852,6 +3036,107 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 105.41 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1a2be55-a63a-4c05-a2ca-b5964d8a1609")
+		(property "Reference" "TP201"
+			(at 107.95 58.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.95 61.4679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 110.49 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 105.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60ab4097-2191-4499-81d4-70fcf2b4525d")
+		)
+		(instances
+			(project "SmartUSB"
+				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/fb99e91f-92a6-4381-99db-764689455caa"
+					(reference "TP201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 143.51 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -2862,7 +3147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca470f40-7230-4acf-a549-acaccdad5018")
-		(property "Reference" "TP202"
+		(property "Reference" "TP203"
 			(at 146.05 58.9279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +3169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2917,13 +3202,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 143.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 143.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfaadeb9-ce63-4b0e-b9cb-6c78358c01fc")
 		)
 		(instances
 			(project "SmartUSB"
 				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/fb99e91f-92a6-4381-99db-764689455caa"
-					(reference "TP202")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -2986,6 +3293,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 124.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3155,6 +3484,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 127 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f760cdc-c157-42f1-81aa-1a5b5bd5c1e9")
 		)
@@ -3165,6 +3516,107 @@
 			(project "SmartUSB"
 				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/fb99e91f-92a6-4381-99db-764689455caa"
 					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c4e32c-5c42-4f1a-986b-bc555feb2cea")
+		(property "Reference" "TP204"
+			(at 203.2 58.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 61.4679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 205.74 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c137ee0-a31d-41de-99a9-367bc070c65e")
+		)
+		(instances
+			(project "SmartUSB"
+				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/fb99e91f-92a6-4381-99db-764689455caa"
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -3227,6 +3679,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)

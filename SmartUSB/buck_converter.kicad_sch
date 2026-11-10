@@ -10058,6 +10058,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 201.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 201.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18df611e-e29a-4d76-9c37-33d1bda95845")
 		)
@@ -10163,7 +10185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cbe30d6-2a43-47f2-ac36-a15c666871f8")
-		(property "Reference" "TP302"
+		(property "Reference" "TP301"
 			(at 223.52 76.7079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10185,7 +10207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 226.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10218,13 +10240,35 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 220.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c9fce25-b967-454f-9694-04a5164e8f20")
 		)
 		(instances
 			(project "SmartUSB"
 				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/ed410f45-83a8-42b4-bf9a-8ba37368cde9"
-					(reference "TP302")
+					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -10285,6 +10329,28 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 81.28 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10377,6 +10443,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 92.71 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d433b53-8dd8-4b07-b89a-37fda20b5b85")
 		)
@@ -10449,6 +10537,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10543,6 +10653,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 220.98 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10712,6 +10844,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 201.93 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 201.93 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ec375ba-c1e2-4780-a311-57abe876d213")
 		)
@@ -10784,6 +10938,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 166.37 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10876,6 +11052,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 220.98 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 220.98 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19bf3443-854c-4bc9-ac6f-af2c28bd190c")
 		)
@@ -10958,6 +11156,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "d7bef57a-413a-4f7a-aea6-25dce52e4b34")
 		)
@@ -10980,85 +11200,6 @@
 			(project "SmartUSB"
 				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/ed410f45-83a8-42b4-bf9a-8ba37368cde9"
 					(reference "U301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b415e82c-b359-4b2c-9910-0cb72e7c7918")
-		(property "Reference" "TP301"
-			(at 111.76 76.7079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 111.76 79.2479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d255003d-a89a-4c44-a7a2-2f6b769041b0")
-		)
-		(instances
-			(project "SmartUSB"
-				(path "/7fe60026-45dd-4fff-9cc0-89f10791a8d1/ed410f45-83a8-42b4-bf9a-8ba37368cde9"
-					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -11209,6 +11350,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 184.15 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 184.15 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ecc71f1-ea30-4423-ad55-00f7f8f97551")
 		)
@@ -11289,6 +11452,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 160.02 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c06507d-45d4-40e9-8080-d212a314bca4")
 		)
@@ -11360,6 +11545,28 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 149.86 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

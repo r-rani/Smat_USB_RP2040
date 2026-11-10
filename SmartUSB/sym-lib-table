@@ -1,5 +1,6 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "usb2244-aezg-06") (type "KiCad") (uri "C:/Users/richa/OneDrive/Desktop/KiCAD Course/USB Project/Libraries/usb2244-aezg-06.kicad_sym") (options "") (descr ""))
-	(lib (name "rp2040") (type "KiCad") (uri "C:/Users/richa/OneDrive/Desktop/KiCAD Course/USB Project/Libraries/rp2040.kicad_sym") (options "") (descr ""))
+	(lib (name "usb2244-aezg-06") (type "KiCad") (uri "C:/GitProj/KiCAD/SmartUSB/Smat_USB_RP2040/Libraries/Used/usb2244-aezg-06.kicad_sym") (options "") (descr ""))
+	(lib (name "rp2040") (type "KiCad") (uri "C:/GitProj/KiCAD/SmartUSB/Smat_USB_RP2040/Libraries/Used/rp2040.kicad_sym") (options "") (descr ""))
+	(lib (name "MTFC64GAPALBH-IT") (type "KiCad") (uri "C:/GitProj/KiCAD/SmartUSB/Smat_USB_RP2040/Libraries/Used/MTFC64GAPALBH-IT.kicad_sym") (options "") (descr ""))
 )
